@@ -1,0 +1,24 @@
+[
+    {
+        "id": "101",
+        "username": "seller1",
+        "password": "seller123",
+        "userType": "seller",
+        "companyName": "Doha",
+        "bankAccount": "1234567890"
+    },
+    { 
+            "id": "102",
+            "username": "seller2",
+            "password": "seller12",
+            "userType": "seller",
+            "companyName": "Qatar",
+            "bankAccount": "1234567890"
+    },
+    {
+        "id": "103",
+        "username": "admin_user",
+        "password": "admin123",
+        "userType": "admin"
+    }
+]

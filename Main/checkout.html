@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purchase Details</title>
+    <link rel="stylesheet" href="Checkout_style.css">
+</head>
+<body>
+    <header>
+        <h1> Purchase Details</h1>
+        <nav>
+            <a href="index.html"> Back to Home</a>
+        </nav>
+    </header>
+    <main>
+        <section class="purchase-section">
+            <h2> Enter Purchase Details</h2>
+            <form id="purchase-form">
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" required><br><br>
+                <label for="shipping-address">Shipping Address:</label>
+                <textarea id="shipping-address" name="shipping-address" required></textarea><br><br>
+                <button type="submit">Confirm Purchase</button>    
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 E-Commerce Platform</p>
+    </footer>
+    <script src="checkout.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:  #89A676;;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+.history-section {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#purchase-history {
+    margin-top: 20px;
+}
+
+.purchase-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.purchase-item h3 {
+    margin-top: 0;
+}
+
+.purchase-item p {
+    margin: 5px 0;
+}
+footer{
+    background-color:  #89A676;;
+    color: #fff;
+    padding: 10px 20px;
+    justify-content: end;
+    bottom: 0; 
+    width: 100%;
+}
+p {
+    color:black;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 0.8rem;
+    line-height: 150%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }

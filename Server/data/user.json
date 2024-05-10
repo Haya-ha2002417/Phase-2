@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Noof",
+    "surname": "Alkaabi",
+    "shipping_address": "Qatar",
+    "username": "na2002196",
+    "password": "2002196",
+    "balance": 1445
+  },
+  {
+    "name": "Haya",
+    "surname": "alsubaey",
+    "shipping_address": "AlWajba",
+    "username": "ha2002417",
+    "password": "2002417",
+    "balance": 12940,
+    "purchaseHistory": [
+      {
+        "itemId": "9",
+        "itemName": "ON Shoes",
+        "quantity": 1,
+        "totalPrice": 560,
+        "date": "2024-03-30T06:54:22.982Z"
+      }
+    ]
+  },
+  {
+    "name": "Roudha",
+    "surname": "alkhalaf",
+    "shipping_address": "Doha",
+    "username": "ra2002203",
+    "password": "2002203",
+    "balance": 155,
+    "purchaseHistory": [
+      {
+        "itemId": "3",
+        "itemName": "Black Hoodie",
+        "quantity": 1,
+        "totalPrice": 45,
+        "date": "2024-03-30T06:55:03.662Z"
+      }
+    ]
+  }
+]

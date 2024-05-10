@@ -1,0 +1,69 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+// Define the data model for purchases
+
+// Define the data model for products
+model Product {
+  id               String     @id @default(cuid())
+  name             String
+  price            Float
+  quantity         Int
+  sellerId         String
+  seller           Seller     @relation(fields: [sellerId], references: [id])
+  imageUrl         String
+  description      String
+  purchases        Purchase[] 
+}
+
+// Define the data model for sellers
+model Seller {
+  id               String      @id
+  username         String      @unique
+  password         String
+  companyName      String
+  bankAccount      String
+  userType         String      @default("buyer") // Default value set to "buyer"
+  products         Product[]
+  sale        Purchase[]  
+}
+
+// Define the data model for buyers
+model Buyer {
+  id               String      @id
+  username         String      @unique
+  password         String
+  firstName        String
+  lastName         String
+  address          String
+  city             String
+  Country          String
+  balance          Float
+  userType         String      @default("buyer") // Default value set to "buyer"
+  purchases        Purchase[]  
+}
+
+model Purchase {
+  id         String    @id @default(cuid())
+  productId  String
+  sellerId   String
+  buyerId    String
+  quantity   Int
+  totalPrice Float
+  date       DateTime  @updatedAt
+  product    Product   @relation(fields: [productId], references: [id])
+  buyer      Buyer     @relation(fields: [buyerId], references: [id])
+  seller     Seller    @relation(fields: [sellerId], references: [id])
+  note       String?   // Added a nullable note attribute
+}

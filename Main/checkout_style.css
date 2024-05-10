@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color:  #89A676;;
+    color: #fff;
+    padding: 10px 20px;
+    height: 110px;
+}
+
+footer {
+    background-color: #89A676;;
+    color: #fff;
+    padding: 10px 20px;
+    justify-content: end;
+    position:fixed; 
+    bottom: 0; 
+    width: 100%;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.purchase-section {
+    width: 50%;
+    margin: auto;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #89A676;;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}

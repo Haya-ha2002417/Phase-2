@@ -1,0 +1,99 @@
+[
+  {
+    "id": "1",
+    "name": "Red T-shirt",
+    "price": 20,
+    "quantity": 0,
+    "sellerId": "101",
+    "imageUrl": "https://uniworthdress.com/uploads/product/FS1456RF..jpg"
+  },
+  {
+    "id": "2",
+    "name": "Blue Jeans",
+    "price": 35,
+    "quantity": 1,
+    "sellerId": "102",
+    "imageUrl": "https://thedenimcompany.pk/cdn/shop/products/50.jpg?v=1661433754"
+  },
+  {
+    "id": "3",
+    "name": "Black Hoodie",
+    "price": 45,
+    "quantity": 10,
+    "sellerId": "101",
+    "imageUrl": "https://www.hallensteins.com/content/products/ab-organic-hooded-sweat-black-front-10002786.jpg",
+    "saleHistory": [
+      {
+        "buyerUsername": "ra2002203",
+        "sellerUsername": "seller1",
+        "quantity": 1,
+        "totalPrice": 45,
+        "date": "2024-03-30T06:50:24.585Z"
+      },
+      {
+        "buyerUsername": "ra2002203",
+        "sellerUsername": "seller1",
+        "quantity": 1,
+        "totalPrice": 45,
+        "date": "2024-03-30T06:55:03.662Z"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "imageUrl": "https://sowears.net/cdn/shop/products/www-sowears-net-dresses-mayday-black-floral-dress-38745699614928.jpg?v=1679762321",
+    "name": "Dress",
+    "price": 30,
+    "quantity": 39,
+    "sellerId": "104"
+  },
+  {
+    "id": "5",
+    "name": "Denim Jacket",
+    "imageUrl": "https://uniworthdress.com/uploads/product/JK2300-1..jpg",
+    "price": 50,
+    "quantity": 5,
+    "sellerId": "101"
+  },
+  {
+    "id": "6",
+    "imageUrl": "https://fittedshop.com/cdn/shop/files/3_ada8d029-a1d3-45b7-8e23-87898c208368.jpg?v=1698124685",
+    "name": "Striped Shirt",
+    "price": 25,
+    "quantity": 35,
+    "sellerId": "106"
+  },
+  {
+    "name": "jeans",
+    "price": 120,
+    "quantity": 23,
+    "sellerId": "101",
+    "imageUrl": "https://www.bugatti-fashion.com/media/bug_magazin_ratgeber_slim-jeans2280x1200.jpg",
+    "id": "7"
+  },
+  {
+    "name": "Whoop watch",
+    "price": 345,
+    "quantity": 4,
+    "sellerId": "101",
+    "imageUrl": "https://www.tamimiprojects.com/cdn/shop/files/71CQ6esBqFL-PhotoRoom_700x700.png?v=1705631463",
+    "id": "8"
+  },
+  {
+    "name": "ON Shoes",
+    "price": 560,
+    "quantity": 4,
+    "sellerId": "101",
+    "imageUrl": "https://images-cdn.ubuy.qa/63511cf50cbf93689f5e52bd-men-039-s-on-cloud-5-running-shoes-4.jpg",
+    "id": "9",
+    "saleHistory": [
+      {
+        "buyerUsername": "ha2002417",
+        "sellerUsername": "seller1",
+        "quantity": 1,
+        "totalPrice": 560,
+        "date": "2024-03-30T06:54:22.982Z"
+      }
+    ]
+  }
+]

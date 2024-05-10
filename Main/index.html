@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Closet</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <h1 class="logo">The Closet</h1>
+        <div class="navbar-links">
+          <a href="#">Home</a>
+          <a id="history-button">View Purchase History</a>
+          <a id="history-button" href="login.html">Logout</a>
+        </div>
+        <svg
+          class="bar-icon"
+          aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          fill="none"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-width="2"
+            d="M5 7h14M5 12h14M5 17h14"
+          />
+        </svg>
+
+        <div class="side-menu">
+          <a href="#">Home</a>
+          <a id="history-button">View Purchase History</a>
+          <a id="history-button" href="login.html">Logout</a>
+          <button class="close-menu">&times;</button>
+        </div>
+
+        <div class="search-icon">
+          <span class="fas fa-search"> Search</span>
+        </div>
+
+        <div class="cancel-icon">
+          <span class="fas fa-times"> Back</span>
+        </div>
+        <form id="search-form">
+          <input
+            type="search"
+            id="search-input"
+            class="search-data"
+            placeholder="Search"
+          />
+          <button type="submit" class="fas fa-search">Search</button>
+        </form>
+      </nav>
+
+      <!-- <section class="history-button" style=" float: right">
+            <button id="history-button">View Purchase History</button>
+        </section>
+        <nav>
+            <a href="login.html" style="color: white;">Login</a>
+        </nav>
+        <nav>
+            <form id="search-form">
+                <input type="text" id="search-input" placeholder="Search...">
+                <button type="submit">Search</button>
+            </form>
+        </nav> -->
+    </header>
+    <main>
+      <section class="item-list">
+        <h2>Available Items</h2>
+        <ul id="items-list"></ul>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+    <footer>
+      <p>&copy; 2024 E-Commerce Platform</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,389 @@
+[
+	[
+		{
+			"id": "1",
+			"name": "Adidas T-shirt",
+			"price": 29.99,
+			"quantity": 50,
+			"sellerId": "1",
+			"imageUrl": "https://cms.brnstc.de/product_images/680x930_retina/cpro/media/images/product/23/1/100138085313000_4_1674468608635.jpg",
+			"description": "Comfortable cotton T-shirt from Adidas."
+		},
+		{
+			"id": "2",
+			"name": "Nike Hoodie",
+			"price": 49.99,
+			"quantity": 30,
+			"sellerId": "2",
+			"imageUrl": "hhttps://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/b6c0543a-2e48-42f6-8e9c-f9e38a908810/therma-hooded-fitness-sweatshirt-gQRR0z.png",
+			"description": "Warm and stylish hoodie from Nike."
+		},
+		{
+			"id": "3",
+			"name": "Levi's Jeans",
+			"price": 59.99,
+			"quantity": 20,
+			"sellerId": "3",
+			"imageUrl": "https://robbreport.com/wp-content/uploads/2020/09/levis.jpg",
+			"description": "Classic jeans from Levi's for everyday wear."
+		},
+		{
+			"id": "4",
+			"name": "Puma Sneakers",
+			"price": 79.99,
+			"quantity": 40,
+			"sellerId": "4",
+			"imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/392326/03/mod01/fnd/PNA/fmt/png/Rebound-Sneakers",
+			"description": "Stylish and comfortable sneakers from Puma."
+		}
+	],
+	[
+		{
+			"id": "1",
+			"username": "adidasstore",
+			"password": "adidas123",
+			"companyName": "Adidas Store",
+			"bankAccount": "1234567890"
+		},
+		{
+			"id": "2",
+			"username": "nikestore",
+			"password": "nike456",
+			"companyName": "Nike Store",
+			"bankAccount": "0987654321"
+		},
+		{
+			"id": "3",
+			"username": "levisstore",
+			"password": "levis123",
+			"companyName": "Levi's Store",
+			"bankAccount": "1357924680"
+		},
+		{
+			"id": "4",
+			"username": "pumastore",
+			"password": "puma456",
+			"companyName": "Puma Store",
+			"bankAccount": "8642097531"
+		}
+	],
+
+	[
+		{
+			"id": "1",
+			"username": "Haya",
+			"password": "123456",
+			"firstName": "John",
+			"lastName": "Doe",
+			"address": "123 Main St",
+			"city": "New York",
+			"Country": "USA",
+			"balance": 5000
+		},
+		{
+			"id": "2",
+			"username": "Roudha",
+			"password": "123456",
+			"firstName": "Janet",
+			"lastName": "Smith",
+			"address": "456 Elm St",
+			"city": "Los Angeles",
+			"Country": "USA",
+			"balance": 7000
+		},
+		{
+			"id": "3",
+			"username": "Roufh",
+			"password": "123456",
+			"firstName": "Mike",
+			"lastName": "Johnson",
+			"address": "789 Oak St",
+			"city": "Chicago",
+			"Country": "USA",
+			"balance": 6000
+		},
+		{
+			"id": "4",
+			"username": "Mucahid",
+			"password": "123456",
+			"firstName": "kk",
+			"lastName": "kantesh",
+			"address": "123 Elm St",
+			"city": "Los Angeles",
+			"Country": "USA",
+			"balance": 7000
+		}
+	],
+	[
+		{
+			"id": "1",
+			"productId": "1",
+			"sellerId": "1",
+			"buyerId": "1",
+			"quantity": 2,
+			"totalPrice": 59.98,
+			"date": "2024-04-01T10:00:00Z"
+		},
+		{
+			"id": "2",
+			"productId": "1",
+			"sellerId": "1",
+			"buyerId": "1",
+			"quantity": 1,
+			"totalPrice": 29.99,
+			"date": "2024-04-02T11:30:00Z"
+		},
+		{
+			"id": "3",
+			"productId": "2",
+			"sellerId": "2",
+			"buyerId": "2",
+			"quantity": 1,
+			"totalPrice": 49.99,
+			"date": "2024-04-03T13:45:00Z"
+		},
+		{
+			"id": "4",
+			"productId": "3",
+			"sellerId": "3",
+			"buyerId": "3",
+			"quantity": 1,
+			"totalPrice": 59.99,
+			"date": "2024-04-04T09:20:00Z"
+		},
+		{
+			"id": "5",
+			"productId": "1",
+			"sellerId": "1",
+			"buyerId": "1",
+			"quantity": 5,
+			"totalPrice": 149.95,
+			"date": "2024-04-05T15:10:00Z"
+		},
+		{
+			"id": "6",
+			"productId": "4",
+			"sellerId": "4",
+			"buyerId": "4",
+			"quantity": 1,
+			"totalPrice": 79.99,
+			"date": "2024-04-06T14:00:00Z"
+		},
+		{
+			"id": "7",
+			"productId": "2",
+			"sellerId": "2",
+			"buyerId": "2",
+			"quantity": 1,
+			"totalPrice": 49.99,
+			"date": "2024-04-07T16:30:00Z"
+		},
+		{
+			"id": "8",
+			"productId": "1",
+			"sellerId": "1",
+			"buyerId": "2",
+			"quantity": 3,
+			"totalPrice": 89.97,
+			"date": "2024-04-08T17:45:00Z"
+		},
+		{
+			"id": "9",
+			"productId": "1",
+			"sellerId": "1",
+			"buyerId": "1",
+			"quantity": 4,
+			"totalPrice": 119.96,
+			"date": "2024-04-09T18:20:00Z"
+		},
+		{
+			"id": "10",
+			"productId": "1",
+			"sellerId": "1",
+			"buyerId": "1",
+			"quantity": 3,
+			"totalPrice": 89.97,
+			"date": "2024-04-10T20:00:00Z"
+		},
+		{
+			"id": "11",
+			"productId": "2",
+			"sellerId": "2",
+			"buyerId": "1",
+			"quantity": 2,
+			"totalPrice": 99.98,
+			"date": "2024-04-11T09:30:00Z"
+		},
+		{
+			"id": "12",
+			"productId": "3",
+			"sellerId": "3",
+			"buyerId": "2",
+			"quantity": 2,
+			"totalPrice": 119.98,
+			"date": "2024-04-12T10:45:00Z"
+		},
+		{
+			"id": "13",
+			"productId": "1",
+			"sellerId": "1",
+			"buyerId": "2",
+			"quantity": 1,
+			"totalPrice": 29.99,
+			"date": "2024-04-13T11:20:00Z"
+		},
+		{
+			"id": "14",
+			"productId": "4",
+			"sellerId": "4",
+			"buyerId": "1",
+			"quantity": 2,
+			"totalPrice": 159.98,
+			"date": "2024-04-14T12:00:00Z"
+		},
+		{
+			"id": "15",
+			"productId": "2",
+			"sellerId": "2",
+			"buyerId": "2",
+			"quantity": 1,
+			"totalPrice": 49.99,
+			"date": "2024-04-15T13:15:00Z"
+		},
+		{
+			"id": "16",
+			"productId": "1",
+			"sellerId": "1",
+			"buyerId": "2",
+			"quantity": 2,
+			"totalPrice": 59.98,
+			"date": "2024-04-16T14:30:00Z"
+		},
+		{
+			"id": "17",
+			"productId": "3",
+			"sellerId": "3",
+			"buyerId": "1",
+			"quantity": 1,
+			"totalPrice": 59.99,
+			"date": "2024-04-17T15:45:00Z"
+		},
+		{
+			"id": "18",
+			"productId": "4",
+			"sellerId": "4",
+			"buyerId": "2",
+			"quantity": 1,
+			"totalPrice": 79.99,
+			"date": "2024-04-18T16:00:00Z"
+		},
+		{
+			"id": "19",
+			"productId": "1",
+			"sellerId": "1",
+			"buyerId": "1",
+			"quantity": 2,
+			"totalPrice": 59.98,
+			"date": "2024-04-19T17:15:00Z"
+		},
+		{
+			"id": "20",
+			"productId": "2",
+			"sellerId": "2",
+			"buyerId": "2",
+			"quantity": 2,
+			"totalPrice": 99.98,
+			"date": "2024-04-20T18:30:00Z"
+		},
+		{
+			"id": "21",
+			"productId": "3",
+			"sellerId": "3",
+			"buyerId": "1",
+			"quantity": 1,
+			"totalPrice": 59.99,
+			"date": "2024-04-21T19:45:00Z"
+		},
+		{
+			"id": "22",
+			"productId": "4",
+			"sellerId": "4",
+			"buyerId": "2",
+			"quantity": 2,
+			"totalPrice": 159.98,
+			"date": "2024-04-22T20:00:00Z"
+		},
+		{
+			"id": "23",
+			"productId": "1",
+			"sellerId": "1",
+			"buyerId": "1",
+			"quantity": 1,
+			"totalPrice": 29.99,
+			"date": "2024-04-23T21:15:00Z"
+		},
+		{
+			"id": "24",
+			"productId": "2",
+			"sellerId": "2",
+			"buyerId": "2",
+			"quantity": 1,
+			"totalPrice": 49.99,
+			"date": "2024-04-24T22:30:00Z"
+		},
+		{
+			"id": "25",
+			"productId": "3",
+			"sellerId": "3",
+			"buyerId": "1",
+			"quantity": 2,
+			"totalPrice": 119.98,
+			"date": "2024-04-25T23:45:00Z"
+		},
+		{
+			"id": "26",
+			"productId": "4",
+			"sellerId": "4",
+			"buyerId": "2",
+			"quantity": 1,
+			"totalPrice": 79.99,
+			"date": "2024-04-26T00:00:00Z"
+		},
+		{
+			"id": "27",
+			"productId": "1",
+			"sellerId": "1",
+			"buyerId": "1",
+			"quantity": 2,
+			"totalPrice": 59.98,
+			"date": "2024-04-27T01:15:00Z"
+		},
+		{
+			"id": "28",
+			"productId": "2",
+			"sellerId": "2",
+			"buyerId": "2",
+			"quantity": 1,
+			"totalPrice": 49.99,
+			"date": "2024-04-28T02:30:00Z"
+		},
+		{
+			"id": "29",
+			"productId": "3",
+			"sellerId": "3",
+			"buyerId": "1",
+			"quantity": 1,
+			"totalPrice": 59.99,
+			"date": "2024-04-29T03:45:00Z"
+		},
+		{
+			"id": "30",
+			"productId": "4",
+			"sellerId": "4",
+			"buyerId": "2",
+			"quantity": 2,
+			"totalPrice": 159.98,
+			"date": "2024-04-30T04:00:00Z"
+		}
+	]
+]
